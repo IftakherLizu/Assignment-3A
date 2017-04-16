@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?famili=open+Condensed:300')
+.body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0;
+    padding: 0;
+    font-size: 16px;
+	
+}
+.container{
+	       width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pad{
+	    padding: 8px 0;
+
+}
+
+.top-header{
+	        background-color: #222;
+    }
+
+.contact-box{
+	    float: left;
+	    width: 50%;
+
+}
+
+.contact-box p{
+	       color: #797979;
+    margin: 0;
+}
+
+.social-box{
+	float: left;
+	width: 50%;
+}
+
+.social-box ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.social-box ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.social-box ul li a{
+		padding: 0 5px;
+    color: #797979;
+    display: block;
+}
+
+
+ 
+.logo{
+	    width: 15%;
+	    float:left;
+}
+
+
+.menu ul{
+	width: 85%;
+	float: left;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 5px solid rgb(226, 226, 226);
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	color: #222;
+
+}
+
+.menu ul li a:hover {
+    color: #d08313;
+    background-color: rgb(226, 226, 226);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.menu ul li a:focus{
+	color: #d08313;
+	background-color: rgb(226, 226, 226);
+}
+
+.button{
+	border: 0px solid rgb(226, 226, 226);
+	border-radius: 5px;
+}
+
+.menu ul li:last-child{
+	border-right: 0px solid rgb(226, 226, 226);
+}
+.bg{
+	background-image: url(../images/game.jpg);
+	background-repeat: no-repeat;
+	background-color: cover;
+}
+
+
+.business-content{
+	width: 50%;
+	float: left;
+	padding: 105px 0;
+}
+
+.business-content h1{
+	font-size: 30px;
+    color: #1b1b1b;
+}
+
+.business-content h1 span{
+	    color: #d08313;
+}
+
+.business-content p{
+	    color: azure;
+	    font-size: 22px;
+}
+
+.business-content img{
+	    max-width: 100%;
+    width: 100px;
+    padding: 0px 150px;
+}
+
+.signup-form{
+	    width: 50%;
+    float: left;
+    padding: 40px 0;
+}
+
+.signup-form .form{
+	padding:30px 15px;
+}
+
+.form input{
+	width: 95%;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #222;
+}
+
+.form .button{
+	width: auto;
+	background-color: #fff;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+.form h1{
+	    color: initial;
+	text-align: center;
+}
+
+.footer{
+        padding: 1px;
+	    background: #FFFFFF;
+	    
+}
+
+.footer p{
+	text-align: center;
+	    font-size: small;
+    color: #797979;
+}
